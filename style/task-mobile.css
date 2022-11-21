@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.task-container {
+    min-width: 300px;
+    width: 24.597364568081993vw;
+    height: auto;
+    border-radius: 10px;
+}
+.input-field{
+    width: 18.071vw;
+    min-width: 253px;
+}
+
+.area {
+    border: 1px solid #c4c4c4;
+    width: 18.071vw;
+    min-width:253px;
+    border-radius: 10px;
+    padding: 10px 30px 10px 27px;
+    margin-top: 21px;
+    max-height: 200px;
+    height: auto;
+}

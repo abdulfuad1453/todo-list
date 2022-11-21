@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-container {
+    min-width: 336px;
+    width: 24vw;
+    height: auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+}
+.task-inside {
+    padding-left: 28px;
+    padding-right: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: 900;
+    line-height: 30px;
+    margin-top: 13px;
+}
+
+.yellow-div {
+    width: 100%;
+    height: 1.75rem;
+    border-radius: 10px 10px 0px 0px;
+    background: #ffdc40;
+    display: flex;
+    flex-direction: column;
+}
+
+.sorting-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+.sortbtn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.sorting-container i {
+    color: #c4c4c4;
+    font-size: 1.2rem;
+}
+.sorting-container i:hover {
+    color: black;
+}
+.input-field {
+    height: 40px;
+    /* min-width: 286px; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.input-field > input {
+    width: 90%;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid transparent;
+    padding: 10px 29px;
+}
+
+.input-field > img {
+    display: block;
+    position: absolute;
+    right: 1.857vw;
+    top: 10px;
+    cursor: pointer;
+}
+.x-btn {
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    width: 150px;
+    background-color: #833ae0;
+    border-radius: 71px;
+    border: none;
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 19px;
+}
+.btn > p {
+    text-align: center;
+    width: 57%;
+    font-size: 14px;
+}
+.plus-btn {
+    height: 42px;
+    min-width: 42px;
+    width: 3vw;
+    border-radius: 71px;
+    background-color: #9953f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.area {
+    border: 1px solid #c4c4c4;
+    width: 100%;
+    min-width: 286px;
+    border-radius: 10px;
+    padding: 12px 30px 12px 27px;
+    max-height: 200px;
+    height: auto;
+}
+.area::-webkit-scrollbar{
+    width: 10px;
+    border-radius:10px ;
+
+}
+.area::-webkit-scrollbar-thumb{
+    background:grey;
+    border-radius:15px;
+    height: 10px;
+
+  }
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 226px;
+    height: 20px;
+    width: 100%;
+}
+.text{
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+.task:last-child {
+    margin-bottom: 0px;
+}
+.draggable {
+    cursor: move;
+}
+.draggable .dragging {
+    opacity: 0.5;
+}
+.task p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.areaAndİnput{
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 21px;
+}
+
